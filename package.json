@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react-typing-effect": "^2.0.1",
     "react": "^16.13.1",
+    "react-div-100vh": "^0.6.0",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-scripts": "3.4.1",

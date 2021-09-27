@@ -3,6 +3,7 @@ import './App.css';
 import Typical from 'react-typical';
 import {Helmet} from 'react-helmet';
 import favicon from './images/logo.png';
+import Div100vh from 'react-div-100vh';
 
 const steps = [
     'Hello 👋', 1000,
@@ -13,7 +14,7 @@ const steps = [
 
 function App() {
     return (
-        <div className="application">
+        <Div100vh className='screen'>
             <Helmet>
                 <title>Aleksandar Koprivica </title>
                 <link id="favicon" rel="icon" href={favicon} type="image/x-icon" data-react-helmet="true" />
@@ -46,11 +47,14 @@ function App() {
             <div className="social">
                 <div className="text">
                     <p>
-                        Facebook. Linkedin. Instagram. Github. CV.
+                        <a href="https://sr-rs.facebook.com/aleksandar.koprivica" target="_blank">Facebook.</a>
+                        <a href="https://www.linkedin.com/in/aleksandarkoprivica1/" target="_blank">Linkedin</a>
+                        <a href="https://github.com/aleksandarkoprivica" target="_blank">Github.</a>
+                        {/*<a href="https://sr-rs.facebook.com/aleksandar.koprivica" target="_blank">CV.</a>*/}
                     </p>
                 </div>
             </div>
-        </div>
+        </Div100vh>
     )
 }
 
