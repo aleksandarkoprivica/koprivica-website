@@ -3,7 +3,6 @@ import './App.css';
 import Typical from 'react-typical';
 import {Helmet} from 'react-helmet';
 import favicon from './images/logo.png';
-import metaImage from './images/Aleksandar-Koprivica-meta.png'
 import Div100vh from 'react-div-100vh';
 
 const steps = [
@@ -27,12 +26,12 @@ function App() {
                 <meta property="og:title" content="Aleksandar Koprivica "/>
                 <meta property="og:description"
                       content="Information Systems Engineer, working as a Frontend developer. Novi Sad, Serbia."/>
-                <meta property="og:image" content={metaImage}/>
+                <meta property="og:image" content="%PUBLIC_URL%/Aleksandar-Koprivica-meta.png"/>
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:title" content="Aleksandar Koprivica "/>
                 <meta property="twitter:description"
                       content="Information Systems Engineer, working as a Frontend developer. Novi Sad, Serbia."/>
-                <meta property="twitter:image" content={metaImage}/>
+                <meta property="twitter:image" content="%PUBLIC_URL%/Aleksandar-Koprivica-meta.png"/>
             </Helmet>
             <div className="container">
                 <Typical
