@@ -3,6 +3,7 @@ import './App.css';
 import Typical from 'react-typical';
 import {Helmet} from 'react-helmet';
 import favicon from './images/logo.png';
+import metaImage from './images/Aleksandar-Koprivica-meta.png'
 import Div100vh from 'react-div-100vh';
 
 const steps = [
@@ -22,19 +23,16 @@ function App() {
                 <meta name="description"
                       content="Information Systems Engineer, working as a Frontend developer. Novi Sad, Serbia."/>
                 <meta property="og:type" content="website"/>
-                <meta property="og:url" content="https://metatags.io/"/>
+                <meta property="og:url" content="koprivica.rs"/>
                 <meta property="og:title" content="Aleksandar Koprivica "/>
                 <meta property="og:description"
                       content="Information Systems Engineer, working as a Frontend developer. Novi Sad, Serbia."/>
-                <meta property="og:image"
-                      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+                <meta property="og:image" content={metaImage}/>
                 <meta property="twitter:card" content="summary_large_image"/>
-                <meta property="twitter:url" content="https://metatags.io/"/>
                 <meta property="twitter:title" content="Aleksandar Koprivica "/>
                 <meta property="twitter:description"
                       content="Information Systems Engineer, working as a Frontend developer. Novi Sad, Serbia."/>
-                <meta property="twitter:image"
-                      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+                <meta property="twitter:image" content={metaImage}/>
             </Helmet>
             <div className="container">
                 <Typical
