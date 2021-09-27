@@ -9,7 +9,7 @@ const steps = [
     'Hello 👋', 1000,
     'My name is Aleksandar', 1000,
     'I am working as a Frontend developer', 1000,
-    'Check my social networks 👇', 1000
+    'Check out my social networks 👇', 1000
 ];
 
 function App() {
