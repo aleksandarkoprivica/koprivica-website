@@ -47,9 +47,9 @@ function App() {
             <div className="social">
                 <div className="text">
                     <p>
-                        <a href="https://sr-rs.facebook.com/aleksandar.koprivica" target="_blank">Facebook.</a>
-                        <a href="https://www.linkedin.com/in/aleksandarkoprivica1/" target="_blank">Linkedin.</a>
-                        <a href="https://github.com/aleksandarkoprivica" target="_blank">Github.</a>
+                        <a href="https://sr-rs.facebook.com/aleksandar.koprivica" target="_blank" rel="noopener noreferrer">Facebook.</a>
+                        <a href="https://www.linkedin.com/in/aleksandarkoprivica1/" target="_blank" rel="noopener noreferrer">Linkedin.</a>
+                        <a href="https://github.com/aleksandarkoprivica" target="_blank" rel="noopener noreferrer">Github.</a>
                         {/*<a href="https://sr-rs.facebook.com/aleksandar.koprivica" target="_blank">CV.</a>*/}
                     </p>
                 </div>
